@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: rgba(72, 163, 0, 0.07);
+	background-color: rgba(94, 202, 6, 0.34);
 	font-family: "Poppins", sans-serif;
 }
 
@@ -50,7 +50,7 @@ main {
 
 .progress-bar {
 	height: 30px;
-	background-color: rgba(72, 163, 0, 0.1);
+	background-color: rgba(94, 202, 6, 0.34);
 	border-radius: 15px;
 	margin-bottom: 42px;
 }
