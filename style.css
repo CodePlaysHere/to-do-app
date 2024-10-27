@@ -75,9 +75,10 @@ main {
 }
 
 .error-label {
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: 500;
 	color: #ff5151;
-	margin-top: 4px;
+	margin-top: 10px;
 	display: none;
 }
 
@@ -91,7 +92,7 @@ main {
 	height: 82px;
 	display: flex;
 	align-items: center;
-	padding: 0 22px;
+	padding: 0;
 	background-color: #ffffff;
 	margin-bottom: 42px;
 }
@@ -102,10 +103,11 @@ main {
 	border: 2px solid rgba(97, 72, 28, 0.3);
 	border-radius: 50%;
 	flex-shrink: 0;
-	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	margin-left: 20px;
 }
 
 .check-icon {
@@ -118,8 +120,9 @@ main {
 	padding-left: 22px;
 	font-family: inherit;
 	font-size: 16px;
-	align-self: stretch;
+	height: 100%;
 	width: 100%;
+	border-radius: 17px;
 	font-weight: 500;
 }
 
