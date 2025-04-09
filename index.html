@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To-Do List</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="img/icon.png" type="image/x-icon" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<div class="dark-mode">
+					<i class="ri-sun-fill" id="toggler"></i>
+				</div>
+
+				<h1>To-Do List <img src="img/icon.png" alt="icon" /></h1>
+
+				<div class="input-field">
+					<input type="text" placeholder="Add a task" class="input" />
+					<button class="add-btn">Add</button>
+				</div>
+
+				<div class="task-list"></div>
+
+				<!-- <div class="new-task">
+					<div class="left">
+						<img
+							src="img/unchecked.png"
+							alt="unchecked"
+							class="unchecked" />
+						<p class="task-value">eat</p>
+					</div>
+					<span class="delete-btn">&times;</span>
+				</div> -->
+			</div>
+		</main>
+
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
